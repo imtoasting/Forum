@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+  background-color: #f0fdf7;
+  color: #000;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  max-width: 600px;
+  width: 100%;
+  padding: 20px 30px;
+}
+
+.card h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.inner-box {
+  background-color: #f0fdf7;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.logo {
+  font-family: monospace;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #b4d3c4;
+  margin-bottom: 20px;
+}
+
+.inner-box h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 12px;
+}
+
+.inner-box p {
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+.inner-box a {
+  color: #3b49df;
+  text-decoration: none;
+}
+
+.inner-box a:hover {
+  text-decoration: underline;
+}
